@@ -1,0 +1,27 @@
+.btn-success:hover
+{
+    background-color: rgb(183, 49, 255);
+}
+
+ canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 200px;
+    margin-top: 90px;
+ }
+
+@keyframes example {
+    from {box-shadow: 15px 15px 38px rgb(0, 106, 255);}
+    to {box-shadow: 15px 15px 38px rgb(198, 54, 255);}
+}
+
+h1{
+    width: 100%;
+    font-size: 23px;
+    font: bolder;
+}
+
+#yeet:hover {
+    background-color: rgb(3, 86, 251);
+}
